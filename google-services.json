@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "666103526387",
+    "firebase_url": "https://liteafrcia.firebaseio.com",
+    "project_id": "liteafrcia",
+    "storage_bucket": "liteafrcia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666103526387:android:fb5c7a63fb22e68aaf5886",
+        "android_client_info": {
+          "package_name": "com.liteafrica.meatexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666103526387-vpp2nm3q67iki0b4mgfplhcug3rm5br3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.liteafrica.meatexpress",
+            "certificate_hash": "6584623ee4d832bac11820ce19f29e2f94e07a56"
+          }
+        },
+        {
+          "client_id": "666103526387-4smmgf5qvpgsic77hhlbn7o1vuohtut2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQfoNFuA09GOUiZvQh2k9grIkHFTFrwoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666103526387-4smmgf5qvpgsic77hhlbn7o1vuohtut2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

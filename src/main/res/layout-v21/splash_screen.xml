@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cor_home_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstsplash"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/_c1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="0dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="5dp"
+            app:contentPadding="0.5dp">
+
+            <ImageView
+                android:id="@+id/service_pic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/progressBarSplash"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="56dp"
+            android:background="@xml/progress"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="false"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/pagerback"
+        android:minHeight="148dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:scaleType="center"
+        android:src="@drawable/bottm" />
+
+    <TextView
+        android:id="@+id/_t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal"
+        android:text="www.liteafrica.co.za"
+        android:textColor="@color/white"
+        android:textColorLink="@color/yellow"
+        android:textSize="18sp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
